@@ -46,7 +46,7 @@ jobs:
         name: webapp
         path: webapp
     - name: Deploy web app
-      uses: azure/webapps-deploy@v2.1.0
+      uses: azure/webapps-deploy@v2
       with:
         app-name: GitHubApp-43284068
         publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE  }}
